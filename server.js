@@ -1,12 +1,12 @@
 // Require our dependencies
-var express = require('express'),
-  exphbs = require('express-handlebars'),
-  http = require('http'),
-  mongoose = require('mongoose'),
-  twitter = require('twitter'),
-  routes = require('./routes'),
-  config = require('./config'),
-  streamHandler = require('./utils/streamHandler');
+var   express = require('express'),
+       exphbs = require('express-handlebars'),
+         http = require('http'),
+     mongoose = require('mongoose'),
+      twitter = require('twitter'),
+       routes = require('./routes'),
+       config = require('./config'),
+streamHandler = require('./utils/streamHandler');
 
 // Create an express instance and set a port variable
 var app = express();
